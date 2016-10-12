@@ -6,3 +6,5 @@ cd janus-gateway; \
 ./configure --prefix=/opt/janus --disable-mqtt; \
 make; \
 make install;
+cd /tmp;
+rm -rf janus-gateway;

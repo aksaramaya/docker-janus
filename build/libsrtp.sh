@@ -7,3 +7,5 @@ cd libsrtp-1.5.0; \
 make libsrtp.so && sudo make install; \
 cd /tmp; \
 rm -rf v1.5.0.tar.gz libsrtp-1.5.0;
+cd /tmp;
+rm -rf libsrtp-1.5.0;

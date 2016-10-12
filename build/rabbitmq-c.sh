@@ -6,3 +6,5 @@ git submodule init
 git submodule update
 autoreconf -i
 ./configure --prefix=/usr && make && sudo make install
+cd /tmp
+rm -rf rabbitmq-c;
